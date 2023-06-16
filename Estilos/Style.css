@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* height: 100vh; */
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-links {
+    font-family: "montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(7, 255, 7);
+    text-decoration: none;
+}
+
+.texto-bold {
+    color: rgb(7, 255, 7);
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.titulo-bold {
+    color: rgb(7, 255, 7);
+}
+
+.apresentacao_texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.subtitulo {
+    font-family: "krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.apresentacao_links_link {
+    /* background-color: #22d4fd; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 378px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "montserrat", sans-serif;
+}
+
+.apresentacao_links_link:hover {
+    background-color: #272727;
+    width: 400px;
+}
+
+.rodape {
+    background-color: rgb(7, 255, 7);
+    color: black;
+    padding: 24px;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+/* STYLE CURRICULO */
+
+.apresentacao_curri {
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-bold_curri {
+    color: white
+}
+
+.subtitulo_curriculo {
+    font-family: "krona One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.apresentacao_links-curri {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.apresentacao_links_curri {
+    /* background-color: #22d4fd; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "montserrat", sans-serif;
+}
+
+.apresentacao_links_curri:hover {
+    background-color: #272727;
+    width: 220px;
+}
