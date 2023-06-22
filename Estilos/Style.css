@@ -190,8 +190,13 @@ body {
 
 @media (max-width: 1200px) {
     
+    .apresentacao_curri {
+        padding: 5%;
+        flex-direction: column-reverse;
+    }
+
     .cabecalho {
-        padding: 6%;
+        padding: 5%;
     }
     
     .cabecalho-menu {
