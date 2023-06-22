@@ -43,7 +43,6 @@ body {
 .cabecalho-links:hover {
     background-color: var(--cor-terciaria);
     border-radius: 5%;
-
     padding: 2px;
     color: var(--cor-secundaria);
 }
